@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #356858;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
+    color: #41cca4;
 }
 
 h2:first-of-type {
@@ -31,11 +33,36 @@ td {
 
 input[type=number] {
     width: 6em;
+    cursor: pointer;
+    border: 2px solid #f2934b;
+    border-radius: 6px;
 }
-
 
 table,
 tr,
 td {
     border: 1px solid black;
+    cursor: pointer;
+}
+input[type=submit] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: none;
+    cursor: pointer;
+    background-color: #e87f30;
+    border: 1px solid #e87f30;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.4);
+}
+input[type=submit]:hover {
+    opacity: 0.9;
+    background-color: #cc6518;
+}
+input[type=submit]:active {
+    background-color: #cc6518;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+input[type=color] {
+    cursor: pointer;
 }
